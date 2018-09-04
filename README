@@ -1,0 +1,10 @@
+ use the "git status" command to see which files git knows exist.
+ To add a file to a commit, you first need to add it to the staging environment. To do this, you can use the git add <filename> command
+ Once you've used the git add command to add all the files you want to the staging environment, you can then tell git to package them into a commit using the git commit command. 
+ How to commit: git commit -m "Your message about the commit"
+ say you are on the master branch and want to create a new branch to develop your web page. Here's what you'll do: Run git checkout -b <my branch name>. This command will automatically create a new branch and then 'check you out' on it, meaning git will move you to that branch, off of the master branch.
+After running the above command, you can use the git branch command to confirm that your branch was created:
+to push your changes to the remote repository, you could've used either the command: git push git@github.com:git/git.git yourbranchname or git push origin yourbranchname
+In order to get the most recent changes that you or others have merged on GitHub, use the git pull origin master command (when working on master branch)
+use the git log command again to see all new commits.
+
